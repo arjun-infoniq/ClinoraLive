@@ -5,8 +5,7 @@
 // Learn more about theming and how to use it for your application's
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
-@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel.scss';
-@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default.scss';
+
 html {
   @include mat.theme((
     color: (
@@ -36,8 +35,6 @@ body {
 }
 /* You can add global styles to this file, and also import other style files */
 /* styles.css or styles.scss */
-@import "primeflex/primeflex.css";
-
 
 
 
